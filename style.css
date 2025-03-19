@@ -1,0 +1,153 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 95px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+select {
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.producto {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+/*franja de llanteria*/
+.red-bar {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.red-bar h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+/*-----*/
+
+/* Icono del menú debajo de la franja */
+.menu-icon {
+    text-align: left; /* Alinea el ícono hacia la izquierda */
+    margin-left: 15px; /* Espaciado para que no quede tan pegado al borde */
+}
+
+.menu-icon a {
+    font-size: 30px;
+    color: #222;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-icon a:hover {
+    color: red; /* Cambia de color al pasar el mouse */
+}
+
+.slidebar {
+    height: 100%; /* Ocupar toda la altura de la pantalla */
+    width: 0; /* Inicialmente, el ancho es 0 (oculto) */
+    position: fixed; /* Fijo en la pantalla */
+    top: 0;
+    left: 0;
+    background-color: #333; /* Fondo oscuro */
+    overflow-x: hidden; /* Oculta el desplazamiento horizontal */
+    transition: 0.3s; /* Animación suave */
+    padding-top: 60px;
+}
+
+.slidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.slidebar a:hover {
+    background-color: red;
+}
+
+#close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+body.slidebar-open {
+    overflow: hidden; /* Evita que se desplace el fondo cuando el slidebar está abierto */
+}
+
+.menu-icon {
+    display: inline-block; /* Mantiene el ícono en línea */
+    vertical-align: middle; /* Alinea verticalmente con el logotipo */
+}
+
+.logotipo {
+    display: inline-block; /* Mantiene el logotipo en línea con el ícono */
+    width: 180px; /* Ajusta el tamaño del logotipo */
+    height: auto; /* Mantiene la proporción del logotipo */
+    margin-left: 100px; /* Espacio entre el ícono del menú y el logotipo */
+    vertical-align: middle; /* Alinea verticalmente con el menú */
+}
+
