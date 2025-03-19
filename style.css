@@ -14,8 +14,8 @@ header {
 }
 
 .icon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin: 0 75px;
     vertical-align: middle;
     cursor: pointer;
@@ -144,10 +144,11 @@ body.slidebar-open {
 }
 
 .logotipo {
-    display: inline-block; /* Mantiene el logotipo en línea con el ícono */
-    width: 180px; /* Ajusta el tamaño del logotipo */
-    height: auto; /* Mantiene la proporción del logotipo */
-    margin-left: 80px; /* Espacio entre el ícono del menú y el logotipo */
-    vertical-align: middle; /* Alinea verticalmente con el menú */
+    display: block; /* Cambia a bloque para un centrado más sencillo */
+    width: 180px; /* Mantén el tamaño deseado */
+    height: auto; /* Mantén la proporción del logotipo */
+    margin: 0 auto; /* Centra horizontalmente */
+    margin-top: -40px;
 }
+
 
