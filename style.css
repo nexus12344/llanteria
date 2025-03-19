@@ -16,7 +16,7 @@ header {
 .icon {
     width: 40px;
     height: 40px;
-    margin: 0 15px;
+    margin: 0 75px;
     vertical-align: middle;
     cursor: pointer;
 }
@@ -147,7 +147,7 @@ body.slidebar-open {
     display: inline-block; /* Mantiene el logotipo en línea con el ícono */
     width: 180px; /* Ajusta el tamaño del logotipo */
     height: auto; /* Mantiene la proporción del logotipo */
-    margin-left: 100px; /* Espacio entre el ícono del menú y el logotipo */
+    margin-left: 80px; /* Espacio entre el ícono del menú y el logotipo */
     vertical-align: middle; /* Alinea verticalmente con el menú */
 }
 
