@@ -86,7 +86,8 @@ button:hover {
 /* Icono del menú debajo de la franja */
 .menu-icon {
     text-align: left; /* Alinea el ícono hacia la izquierda */
-    margin-left: 15px; /* Espaciado para que no quede tan pegado al borde */
+    margin-left: 15px;
+    margin-top: 23px;
 }
 
 .menu-icon a {
@@ -148,7 +149,7 @@ body.slidebar-open {
     width: 180px; /* Mantén el tamaño deseado */
     height: auto; /* Mantén la proporción del logotipo */
     margin: 0 auto; /* Centra horizontalmente */
-    margin-top: -40px;
+    margin-top: -66px;
 }
 
 
